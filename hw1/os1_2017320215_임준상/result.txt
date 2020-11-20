@@ -1,0 +1,52 @@
+osta@osta-VirtualBox:~/oslab$ gcc call_my_stack.c -o call_my_stack
+osta@osta-VirtualBox:~/oslab$ ./call_my_stack
+Push: 13
+Push: 57
+Push: 91
+Pop: 91
+Pop: 57
+Pop: 13
+osta@osta-VirtualBox:~/oslab$ dmesg
+[  708.221758] Stack Top----------
+[  708.221761] 13
+[  708.221765] Stack Bottom-------
+[  710.144381] Stack Top----------
+[  710.144383] 57
+[  710.144384] 13
+[  710.144385] Stack Bottom-------
+[  712.190254] Stack Top----------
+[  712.190260] 91
+[  712.190263] 57
+[  712.190265] 13
+osta@osta-VirtualBox:~/oslab$ sudo dmesg -c
+[  708.221758] Stack Top----------
+[  708.221761] 13
+[  708.221765] Stack Bottom-------
+[  710.144381] Stack Top----------
+[  710.144383] 57
+[  710.144384] 13
+[  710.144385] Stack Bottom-------
+[  712.190254] Stack Top----------
+[  712.190260] 91
+[  712.190263] 57
+[  712.190265] 13
+osta@osta-VirtualBox:~/oslab$ gcc call_my_stack.c -o call_my_stack
+osta@osta-VirtualBox:~/oslab$ ./call_my_stack
+Push: 1
+Push: 3
+Push: 3
+Pop: 3
+Pop: 1
+osta@osta-VirtualBox:~/oslab$ dmesg
+[  712.190267] Stack Bottom-------
+[  765.457620] Stack Top----------
+[  765.457624] 1
+[  765.457626] Stack Bottom-------
+[  766.542608] Stack Top----------
+[  766.542610] 3
+[  766.542611] 1
+[  766.542611] Stack Bottom-------
+[  767.161147] Duplicate!
+[  767.161149] Stack Top----------
+[  767.161150] 3
+[  767.161151] 1
