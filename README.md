@@ -7,4 +7,4 @@
 期末的内容是测定并记录linux系统中CPU的占有情况，以此了解进程与进程的调度。通过在linux内核中编译以实现监听。
 
 # 📃 Grades of project
-![image](https://github.com/Lin-CX/Repository/blob/master/image.png)
+![image](https://github.com/Lin-CX/Operating-System/blob/main/project2-garde.png)
