@@ -1,5 +1,7 @@
 # 📌 Operating System
- Upload for Operating System project backup
+**You can check [English README](https://github.com/Lin-CX/computer-system-design/blob/main/mini-project/Eng_readme/README.md) to read README English version.**
+
+Upload for Operating System project backup.
 
 # 👀 Project Description
 * 这是操作系统课一学期的两个大作业（期中和期末）。
