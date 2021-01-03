@@ -12,5 +12,5 @@
 
 ## 📃 Grades of project
 
-![image](./project2-garde.png)
+![image](../project2-garde.png)
 
