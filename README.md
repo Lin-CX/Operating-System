@@ -1,5 +1,5 @@
 # 📌 Operating System
-**You can check [English README](https://github.com/Lin-CX/computer-system-design/blob/main/mini-project/Eng_readme/README.md) to read README English version.**
+**You can check [English README](https://github.com/Lin-CX/Operating-System/blob/main/README_Eng/README_Eng.md) to read README English version.**
 
 Upload for Operating System project backup.
 
